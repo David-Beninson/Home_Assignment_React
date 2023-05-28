@@ -1,0 +1,44 @@
+/* Styles for the button container */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.prev-button {
+    align-self: flex-start;
+}
+
+.next-button {
+    align-self: flex-end;
+}
+
+/* Styles for the select container */
+.select-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.category-select {
+    width: 200px;
+}
+
+/* Styles for the image container */
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+
+/* Styles for the individual image item */
+.img-item {
+    position: relative;
+    cursor: pointer;
+}
+
+.img-item img {
+    width: 100%;
+    height: auto;
+}
